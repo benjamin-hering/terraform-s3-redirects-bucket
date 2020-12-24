@@ -6,3 +6,8 @@ variable "urls_to_redirect" {
     "redirect2" = "https://democratsabroad.atlassian.net"
   }
 }
+
+variable "s3_domain_name" {
+  type = string
+  description = "The domain name that this bucket will be hosted under and issue redirects from"
+}
