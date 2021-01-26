@@ -14,6 +14,7 @@ Two variables
 
 Folder structure is fine `"what/is/up/with+bsidessf+this+year" = "https://twitter.com/BSidesSF/status/1315095523179724800"` will create an object in the S3 bucket at `subdomain.example.com/what/is/up/with+bsidessf+this+year` and redirect it to `https://twitter.com/BSidesSF/status/1315095523179724800`
 
+### Full Code Sample
 
 ```
 module "custom_redirects" {
