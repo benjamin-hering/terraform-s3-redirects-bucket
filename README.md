@@ -10,11 +10,9 @@ Two variables
 
 `urls_to_redirect` is a map of URL stems and their associated redirects. For example, adding
 
-`"redirect1" = "https://blog.benjamin-hering.com"`
+`"redirect1" = "https://blog.benjamin-hering.com"`will create an object in the S3 bucket at `subdomain.example.com/redirect1` and redirect it to `https://blog.benjamin-hering.com`
 
-will create an object in the S3 bucket at `subdomain.example.com/redirect1` and redirect it to `https://blog.benjamin-hering.com`
-
-Folder Structure is fine `"what/is/up/with+bsidessf+this+year" = "https://twitter.com/BSidesSF/status/1315095523179724800"` will create an object in the S3 bucket at `subdomain.example.com/what/is/up/with+bsidessf+this+year` and redirect it to `https://twitter.com/BSidesSF/status/1315095523179724800`
+Folder structure is fine `"what/is/up/with+bsidessf+this+year" = "https://twitter.com/BSidesSF/status/1315095523179724800"` will create an object in the S3 bucket at `subdomain.example.com/what/is/up/with+bsidessf+this+year` and redirect it to `https://twitter.com/BSidesSF/status/1315095523179724800`
 
 
 ```
